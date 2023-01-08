@@ -1,0 +1,92 @@
+/* Text center */
+
+.text-center {
+  text-align: center;
+}
+.heading-small {
+  font-size: 1.25rem;
+}
+.heading-medium {
+  font-size: 1.5rem;
+}
+.heading-big {
+  font-size: 1.75rem;
+}
+/* colors */
+.bg-dark-blue {
+  background-color: rgb(10, 10, 102);
+}
+.bg-light-blue {
+  background-color: rgb(48, 48, 221);
+}
+/* buttons */
+.btn {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  padding: 0.25rem 3rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background: rgb(48, 48, 221);
+  color: white;
+  border: 2px solid rgb(48, 48, 221);
+}
+.btn-primary:hover {
+  background: white;
+  color: rgb(48, 48, 221);
+}
+.btn-dark {
+  background: #333;
+  color: white;
+  border: 2px solid #333;
+}
+.btn-dark:hover {
+  background: white;
+  color: #333;
+}
+.btn-block {
+  width: 100%;
+  text-align: center;
+  background: rgb(171, 155, 155);
+}
+.btn-block:hover {
+  background: rgb(119, 110, 110);
+}
+/* container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*item info */
+.info-bold {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.25rem;
+}
+.info-letter {
+  opacity: 0.4;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.25rem;
+}
+.info-size {
+  opacity: 0.4;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+/* forms */
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.25rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 5px;
+}
